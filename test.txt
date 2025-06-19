@@ -1,1 +1,23 @@
-sdfs
+--- 
+
+--- Django
+
+.\venv\Scripts\Activate
+
+python manage.py runserver
+
+http://127.0.0.1:8000/
+
+user:shawnrazer
+p: 2s2
+
+
+-- JS
+
+
+Project Structure
+navigation/AppNavigator.js — Stack navigation for Login, Mod List, and Add Mod screens
+screens/LoginScreen.js — Login form, authenticates with Django backend
+screens/ModListScreen.js — Lists user’s mods, button to add a new mod
+screens/AddModScreen.js — Form to add a new mod (identifier, plant type, growth method)
+App.js — Uses the navigator as the app entry point
